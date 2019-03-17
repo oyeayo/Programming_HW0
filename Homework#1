@@ -1,0 +1,48 @@
+If n is even, n / 2 fork()
+Else 3 x n + 1 fork()
+printf()
+Return 0;
+
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+Void collatz() {
+  Int n;
+  if(n % 2 == 0)
+    N / 2;
+    fork();
+  Else {
+    N * 3 + 1;
+    fork(); 
+}
+
+Void collatz() { 
+    // child process because return value zero 
+    if (fork() == 2n) 
+        printf("Hello from Child!\n"); 
+  
+    // parent process because return value non-zero. 
+    else
+        printf("Hello from Parent!\n"); 
+} 
+int main() 
+{ 
+    forkexample(); 
+    return 0; 
+}
+
+Bitwise Right Shift Operator in C
+It is denoted by >>
+Bit Pattern of the data can be shifted by specified number of Positions to Right
+When Data is Shifted Right , leading zero’s are filled with zero.
+Right shift Operator is Binary Operator [Bi – two]
+Binary means , Operator that require two arguments
+vfdQuick Overview of Right Shift Operator
+Original Number A 	 0000  0000  0011  1100
+Right Shift by 2	 0000  0000  0000  1111
+Leading 2 Blanks	 Replaced by 0 ,Shown in RED
+Direction of Movement of Data	Right ========>>>>>>
+
+
+
